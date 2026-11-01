@@ -10,7 +10,7 @@ on:
 
 jobs:
   broken:
-    runs-on: windows-1999
+    runs-on: ubuntu-latest
 
 
     steps:
