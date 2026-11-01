@@ -14,7 +14,7 @@ jobs:
 
 
     steps:
-      name: Say Hello
-      run: echo "This job should not run"
+      - name: Say Hello
+        run: echo "This job should not run"
 
 
