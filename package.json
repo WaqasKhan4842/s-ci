@@ -1,0 +1,20 @@
+{
+  "name": "s-ci",
+  "version": "1.0.0",
+  "description": "this is a test app to teach ci to s.",
+  "homepage": "https://github.com/WaqasKhan4842/s-ci#readme",
+  "bugs": {
+    "url": "https://github.com/WaqasKhan4842/s-ci/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/WaqasKhan4842/s-ci.git"
+  },
+  "license": "ISC",
+  "author": "Waqas-Khan",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
+}
