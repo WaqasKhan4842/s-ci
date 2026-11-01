@@ -1,0 +1,20 @@
+name: Warm-Up (Broken runner)
+
+
+
+on:
+  push:
+    branches: [main]
+
+  
+
+jobs:
+  broken:
+    runs-on: windows-1999
+
+
+    steps:
+      -name: Say Hello
+      run: echo "This job should not run"
+
+
