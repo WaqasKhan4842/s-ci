@@ -1,0 +1,20 @@
+name: CI
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v2
+
+    # Task 2: Add caching step here
+    # Task 3: Add install, test, and upload-artifact steps here
+    # Task 4: Add "create issue on failure" step at the bottom
+    # Task 5: Add "generate and upload image" step here
+      
