@@ -14,6 +14,13 @@ jobs:
         uses: actions/checkout@v2
 
     # Task 2: Add caching step here
+      - name: Cache npm dependencies
+        uses: actions/cache@v4
+        with:
+          path: ~/.npm
+          key: ${{ runner.os }}-npm-${{ hashFiles('package.json') }}
+          restore-keys: |
+            ${{ runner.os }}-npm-
     # Task 3: Add install, test, and upload-artifact steps here
     # Task 4: Add "create issue on failure" step at the bottom
     # Task 5: Add "generate and upload image" step here
